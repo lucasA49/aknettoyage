@@ -1,7 +1,7 @@
-import { useState } from "react";
+/* eslint-disable no-unused-vars */
+import React, { useState } from "react";
 import "../styles/BodyContact.css"; 
-// eslint-disable-next-line import/no-extraneous-dependencies
-import emailjs from "@emailjs/browser";
+import emailjs from "emailjs-com"
 
 function BodyContact() {
   const [formData, setFormData] = useState({
