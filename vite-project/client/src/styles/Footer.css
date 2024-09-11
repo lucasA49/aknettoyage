@@ -1,0 +1,53 @@
+footer {
+    display: flex;
+    height: 16rem;
+    width: 100%;
+    background-color: #525252;
+    flex-direction: column;
+    align-items: center;
+  
+    color: white;
+  
+    & h5 {
+      font-size: 25px;
+      color: white;
+      display: block;
+      /* Assure que l'élément est traité comme un bloc */
+      margin-left: auto;
+      margin-right: auto;
+      height: 0px;
+    }
+  
+    & .p-footer {
+      height: 10px;
+      color: white;
+      height: 10px;
+      font-size: 1rem;
+    }
+  
+    .p2-footer {
+      font-size: 20px;
+      height: 10px;
+      font-size: 1rem;
+    }
+  }
+  .insta,
+  .facebook {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+  }
+  
+  .footer-info {
+    display: flex;
+    justify-content: space-between;
+    text-align: flex-end;
+    font-size: 20px;
+    font-size: 1.1rem;
+  }
+  .logo-reseaux {
+    display: flex;
+  }
+  

@@ -1,0 +1,85 @@
+.contenaire-body {
+    display: flex;
+    height: 80h;
+    justify-content: center;
+    text-align: center;
+    right: 20%;
+  
+    img {
+      height: 30rem;
+      width: 25vw;
+      justify-content: center;
+      margin: auto;
+      gap: 1rem;
+      border-radius: 25px;
+    }
+  }
+  
+  .titre-image-container {
+    top: 2rem;
+  }
+  
+  .titre-body {
+    font-size: 1.25rem;
+    height: 3rem;
+  }
+  
+  .image-body-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  /* présentation en dessous des images */
+  .contenaire-titre-pres {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .titre-prestations {
+    height: 1.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .contenaire-presentation {
+    display: flex;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    height: 90vh;
+    width: 100%;
+  }
+  
+  .p-presentation {
+    position: relative;
+    height: 12rem;
+    width: 70vw;
+    justify-content: center;
+    margin-left: 4rem;
+    font-size: 1.2rem;
+  }
+  
+  .img-texte-accueil {
+    position: relative;
+    height: 47vh;
+    width: 34vw;
+    right: 2%;
+    border-radius: 25px;
+    left: 1.5rem;
+  }
+  
+  .nosservices {
+    position: relative;
+    top: 14rem;
+    height: 2rem;
+    right: 28%;
+    font-size: 1rem;
+  }
+  
+  .liste-nonordonée-services {
+    position: relative;
+    right: 60%;
+    top: 35%;
+    font-size: 1rem;
+  }
+  
