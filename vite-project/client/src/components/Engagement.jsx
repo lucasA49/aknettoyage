@@ -1,6 +1,6 @@
-import soinparticulier from "../assets/icones/soinparticulier.png";
-import materieladaptée from "../assets/icones/materieladaptée.png";
-import produitbio from "../assets/icones/produitbio.png";
+import soinparticulier from "../assets copy/icones/soinparticulier.png";
+import materieladaptée from "../assets copy/icones/materieladaptée.png";
+import produitbio from "../assets copy/icones/produitbio.png";
 import "../styles/Accueil.css";
 
 function Engagement() {

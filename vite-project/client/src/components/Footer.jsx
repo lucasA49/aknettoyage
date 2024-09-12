@@ -1,8 +1,8 @@
 import "../styles/Footer.css";
 import { NavLink } from "react-router-dom";
-import insta from "../assets/images/instagram.png";
-import facebook from "../assets/images/facebook.png";
-import Logo from "../assets/images/aknettoyage.png";
+import facebook from "../assets copy/images/facebook.png";
+import insta from "../assets copy/images/instagram.png";
+import Logo from "../assets copy/images/aknettoyage.png";
 
 function Footer() {
   return (

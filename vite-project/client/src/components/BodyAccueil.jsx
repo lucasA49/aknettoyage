@@ -1,7 +1,7 @@
-import canap from "../assets/images/lavcanapé.png";
-import exterieur from "../assets/images/lavexterieur.png";
-import interieur from "../assets/images/lavinterieur.png";
-import pressingsiege from "../assets/images/pressingsiege.png";
+import canap from "../assets copy/images/lavcanapé.png";
+import exterieur from "../assets copy/images/lavexterieur.png";
+import interieur from "../assets copy/images/lavinterieur.png";
+import pressingsiege from "../assets copy/images/pressingsiege.png";
 import "../styles/BodyAccueil.css";
 
 function BodyAccueil() {
