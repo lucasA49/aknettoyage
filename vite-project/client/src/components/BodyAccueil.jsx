@@ -3,6 +3,7 @@ import exterieur from "../assets copy/images/lavexterieur.png";
 import interieur from "../assets copy/images/lavinterieur.png";
 import pressingsiege from "../assets copy/images/pressingsiege.png";
 import "../styles/BodyAccueil.css";
+import { NavLink } from "react-router-dom";
 
 function BodyAccueil() {
   return (
@@ -27,44 +28,53 @@ function BodyAccueil() {
       </div>
       <div className="contenaire-presentation">
         <img className="img-texte-accueil" src={pressingsiege} alt="" />
-        <p className="p-presentation">
-          Pour la plupart des personnes, nettoyer sa voiture est une véritable
-          corvée.
-          <br />
-          Vous devez passer l’aspirateur à l’intérieur, nettoyer les vitres,
-          <br />
-          frotter le tableau de bord sans oublier le nettoyage de l’extérieur.{" "}
-          <br />
-          Pourtant, c’est une tâche qui doit obligatoirement se faire assez
-          fréquemment. <br />
-          En effet, vous ne pouvez pas empêcher la poussière d’entrer dans votre
-          habitacle, <br />
-          vous entrez dans la voiture avec vos chaussures parfois sales et les
-          intempéries peuvent salir vos vitres. <br />
-          C'est pour cela que AK NETTOYAGE propose aux particuliers et
-          professionnels, de laver votre voiture à votre place.
-        </p>
-        <p className="nosservices">
-          {" "}
-          Ainsi, notre service de nettoyage à Paris vous propose 10 prestations
-          de qualité différentes
-        </p>
-        <div className="liste-nonordonée-services">
-          <ul className="p-listeservices">
-            <li>Lustrage de voiture.</li>
-            <li> Lavage de moto.</li>
-            <li>Lavage de camping-car.</li>
-            <li>Lavage complet de la voitur e.</li>
-            <li>Lavage intérieur de la voiture.</li>
-            <li>Nettoyage de la moquette du véhicule.</li>
-            <li>Lavage auto à la main.</li>
-            <li>Lavage de voiture à domicile.</li>
-            <li>Nettoyage des sièges de voiture.</li>
-            <li>Désinfection de véhicule</li>
-            <li>Nettoyage de canapes </li>
-            <li>Nettoyage de matelas</li>
-          </ul>
-        </div>{" "}
+        <div className="contenaire-pres-texte">
+
+          <p className="p-presentation">
+            Pour la plupart des personnes, nettoyer sa voiture est une véritable
+            corvée.
+            <br />
+            Vous devez passer l’aspirateur à l’intérieur, nettoyer les vitres,
+            <br />
+            frotter le tableau de bord sans oublier le nettoyage de l’extérieur.{" "}
+            <br />
+            Pourtant, c’est une tâche qui doit obligatoirement se faire assez
+            fréquemment. <br />
+            En effet, vous ne pouvez pas empêcher la poussière d’entrer dans votre
+            habitacle, <br />
+            vous entrez dans la voiture avec vos chaussures parfois sales et les
+            intempéries peuvent salir vos vitres. <br />
+            C'est pour cela que AK NETTOYAGE propose aux particuliers et
+            professionnels, de laver votre voiture à votre place.
+          </p>
+
+          <section className="section-services">
+            <p className="nosservices">
+              {" "}
+              Ainsi, notre service de nettoyage à Paris vous propose 10 prestations
+              de qualité différentes
+            </p>
+            <div className="liste-nonordonée-services">
+              <ul className="p-listeservices">
+                <li>Lustrage de voiture</li>
+                <li> Lavage de moto</li>
+                <li>Lavage de camping-car</li>
+                <li>Lavage complet de la voiture</li>
+                <li>Lavage intérieur de la voiture</li>
+                <li>Nettoyage de la moquette du véhicule</li>
+                <li>Lavage auto à la main</li>
+                <li>Lavage de voiture à domicile</li>
+                <li>Nettoyage des sièges de voiture</li>
+                <li>Désinfection de véhicule</li>
+                <li>Nettoyage de canapes </li>
+                <li>Nettoyage de matelas</li>
+              </ul>
+              <div className="btn-contact">
+                <NavLink  to="/Contact">CONTACTEZ NOUS</NavLink>
+              </div>
+            </div>{" "}
+          </section>
+        </div>
       </div>
     </>
   );
