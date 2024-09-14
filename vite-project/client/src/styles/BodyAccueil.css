@@ -20,6 +20,7 @@
   }
   
   .titre-body {
+    margin-top: 2rem;
     font-size: 1.25rem;
     height: 3rem;
   }
@@ -27,7 +28,11 @@
   .image-body-container {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 1rem;
+
+    img{
+      filter: brightness(80%);
+    }
   }
   
   /* présentation en dessous des images */
@@ -81,5 +86,22 @@
     right: 60%;
     top: 35%;
     font-size: 1rem;
+    
   }
-  
+  .interieur:hover{
+transform: scale(1.05);
+transition: 0.3s;
+filter: brightness(100%);  
+}
+  .exterieur:hover{
+    transform: scale(1.05);
+transition: 0.3s;
+filter: brightness(100%);  
+
+  }
+  .canap:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    filter: brightness(100%);  
+
+  }

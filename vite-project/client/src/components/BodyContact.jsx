@@ -53,7 +53,7 @@ function BodyContact() {
   return (
     <>
       <div className="head-contact">
-        <p>oui</p>
+    
       </div>
       <div className="body-contact">
         <div className="container-contact">
