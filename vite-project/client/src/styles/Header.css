@@ -3,6 +3,7 @@ header {
       display: flex;
       justify-content: space-between;
       align-items: center;
+ 
   
       & .logo {
         padding: 1rem;
@@ -11,17 +12,17 @@ header {
       & #contact-nav {
         display: flex;
         align-items: center;
-        gap: 4rem;
-        padding: 0 2rem 0 0;
+        gap: 0rem;
   
         & > img {
+          display: flex;
           height: 80px;
           font-size: 25px;
+          margin-right: 4rem;
         }
   
         & .numero-tel {
           font-size: 24px;
-          /* left: 40%; */
           transform: translateX(-40%);
         }
   
@@ -29,8 +30,10 @@ header {
           text-decoration: none;
           background-color: grey;
           border-radius: 1rem;
-          padding: 0.8rem 1.2rem;
+          padding: 0.8rem 0.5rem;
+margin-right: 2rem;
           color: white;
+          width: 100%;
         }
       }
     }
@@ -42,6 +45,7 @@ header {
       gap: 4rem;
       background-color: #525252;
       height: 50px;
+      width: 100%;
   
       & a {
         text-decoration: none;

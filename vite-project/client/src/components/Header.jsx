@@ -23,9 +23,9 @@ function Header() {
 
       {/* EN ATTENTE DE ROOT POUR LE BOUTON !! */}
       <nav id="banner">
-        <NavLink to="nettoyagevéhiculeintérieur">Lavage Intérieur</NavLink>
-        <NavLink to="nettoyagevéhiculeextérieur">Lavage Extérieur </NavLink>
-        <NavLink to="nettoyagemobiliertextile">
+        <NavLink to="/NéttoyageIntérieur">Lavage Intérieur</NavLink>
+        <NavLink to="/Néttoyageextérieur">Lavage Extérieur </NavLink>
+        <NavLink to="/Mobilier">
           Nettoyage de Mobilier textille
         </NavLink>
       </nav>
