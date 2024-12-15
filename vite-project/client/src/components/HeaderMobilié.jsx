@@ -13,7 +13,7 @@ function HeaderMobilié() {
                         <br />
                         <br />
                         avec AK Nettoyae</h1>
-                    <h2 className="header-secondaire">Un nettoyage professionnel pour
+                    <h2 className="text-content">Un nettoyage professionnel pour
                         <br />
                         <br />
                         retrouver confort et propreté dans
