@@ -1,0 +1,41 @@
+.text-content h1,
+.text-content h2 {
+    text-align: left;
+}
+
+.header {
+    background-color: rgb(0, 59, 185);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.header h1 {
+    font-size: 3rem;
+    color: black;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+.header h2 {
+    font-size: 2rem;
+    color: black;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+.header-images {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-images img {
+    width: 50%;
+    max-width: 80rem;
+    border-radius: 8px;
+    margin-top: 12rem;
+    margin-right: 20rem;
+    margin-bottom: 15rem;
+}
