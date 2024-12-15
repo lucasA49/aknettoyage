@@ -1,7 +1,7 @@
-import canap from "../assets copy/images/lavcanapé.png";
-import exterieur from "../assets copy/images/lavexterieur.png";
-import interieur from "../assets copy/images/lavinterieur.png";
-import pressingsiege from "../assets copy/images/pressingsiege.png";
+import canap from "../assetscopy/images/lavcanapé.png";
+import exterieur from "../assetscopy/images/lavexterieur.png";
+import interieur from "../assetscopy/images/lavinterieur.png";
+import pressingsiege from "../assetscopy/images/pressingsiege.png";
 import "../styles/BodyAccueil.css";
 import { NavLink } from "react-router-dom";
 
