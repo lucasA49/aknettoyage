@@ -5,7 +5,6 @@ function Interieur() {
   return (
     <>
       <Header />
-
       <Footer />
     </>
   );
