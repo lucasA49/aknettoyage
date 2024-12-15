@@ -1,6 +1,10 @@
-.text-content h1,
-.text-content h2 {
-    text-align: left;
+
+.text-content{
+    height: 5rem;
+    color: red;
+    font-size: 1rem;
+display: flex;
+
 }
 
 .header {
@@ -8,23 +12,9 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    height: 30rem;
 }
 
-
-.header h1 {
-    font-size: 3rem;
-    color: black;
-    margin-left: 3rem;
-    margin-top: 3rem;
-    margin-bottom: 6rem;
-}
-
-.header h2 {
-    font-size: 2rem;
-    color: black;
-    margin-left: 3rem;
-    margin-bottom: 1rem;
-}
 
 .header-images {
     display: flex;
