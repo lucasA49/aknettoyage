@@ -1,0 +1,18 @@
+.benefinte {
+    height: 80vh;
+}
+
+.canapbeige {
+    display: flex;
+    height: 30rem;
+    margin-left: 6rem;
+margin-top: 2.5rem;
+border-radius: 25px;
+width: 35rem;
+}
+.propretemobilier{
+    display: flex;
+    right:40%;
+    left: 60%;
+    width: 19rem;
+}

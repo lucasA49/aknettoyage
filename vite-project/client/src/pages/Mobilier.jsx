@@ -1,12 +1,12 @@
-import Header from "../components/Header";
 import Footer from "../components/Footer";
 import HeaderMobilié from "../components/HeaderMobilié"
+import BeneficeMobilier from "../components/BeneficeMobilier";
 
 function Mobilier() {
   return (
     <>
-      <Header />
       <HeaderMobilié/>
+      <BeneficeMobilier />
       <Footer />
     </>
   );

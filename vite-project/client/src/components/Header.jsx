@@ -1,8 +1,8 @@
 import "../styles/Header.css";
 import { NavLink } from "react-router-dom";
-import imgBanner from "../assets copy/images/background-header.jpg";
-import logo from "../assets copy/images/aknettoyage.png";
-import tel from "../assets copy/images/telephone.jpg";
+import imgBanner from "../assetscopy/images/background-header.jpg";
+import logo from "../assetscopy/images/aknettoyage.png";
+import tel from "../assetscopy/images/telephone.jpg";
 
 function Header() {
   return (
