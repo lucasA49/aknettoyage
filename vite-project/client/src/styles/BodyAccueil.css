@@ -1,135 +1,140 @@
 .contenaire-body {
-    display: flex;
-    height: 80h;
-    justify-content: center;
-    text-align: center;
-    right: 20%;
-  
-    img {
-      height: 30rem;
-      width: 25vw;
-      justify-content: center;
-      margin: auto;
-      gap: 1rem;
-      border-radius: 25px;
-    }
-  }
-  
-  .titre-image-container {
-    top: 2rem;
-  }
-  
-  .titre-body {
-    margin-top: 2rem;
-    font-size: 1.25rem;
-    height: 3rem;
-  }
-  
-  .image-body-container {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  height: 80h;
+  justify-content: center;
+  text-align: center;
+  right: 20%;
 
-    img{
-      filter: brightness(80%);
-    }
-  }
-  
-  /* présentation en dessous des images */
-  .contenaire-titre-pres {
-    text-align: center;
-    align-items: center;
+  img {
+    height: 30rem;
+    width: 25vw;
     justify-content: center;
-  }
-  
-  .titre-prestations {
-    margin-top: 5rem;
-    height: 1.5rem;
-    font-size: 1.5rem;
-  }
-  
-  .contenaire-presentation {
-    display: flex;
-    height: 90vh;
-    padding: 1.5rem;
-  }
-  
-  .p-presentation {
-    position: relative;
-    height: 12rem;
-    justify-content: center;
-    margin-left: 4rem;
-    font-size: 1.2rem;
-    overflow-wrap: wrap;
-  }
-  
-  .img-texte-accueil {
-    position: relative;
-    height: 70vh;
+    margin: auto;
+    gap: 1rem;
     border-radius: 25px;
   }
-  
-  .nosservices {
-    position: relative;
-    top: 1rem;
-    font-size: 1.2rem;
-  }
-  
-  .liste-nonordonée-services {
-    position: relative;
-    font-size: 1rem;
-  }
+}
 
-  .interieur:hover{
-    transform: scale(1.05);
-    transition: 0.3s;
-    filter: brightness(100%);  
+.titre-image-container {
+  top: 2rem;
+}
+
+.titre-body {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  height: 3rem;
+}
+
+.image-body-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  img {
+    filter: brightness(80%);
   }
-  .exterieur:hover{
-    transform: scale(1.05);
+}
+
+/* présentation en dessous des images */
+.contenaire-titre-pres {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.titre-prestations {
+  margin-top: 5rem;
+  height: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.contenaire-presentation {
+  display: flex;
+  height: 90vh;
+  padding: 1.5rem;
+}
+
+.p-presentation {
+  display: flex;
+  height: 12rem;
+  align-items: center;
+  margin-left: 5rem;
+  font-size: 1.2rem;
+  overflow-wrap: wrap;
+}
+
+.img-texte-accueil {
+  position: relative;
+  height: 70vh;
+  border-radius: 25px;
+}
+
+.nosservices {
+  position: relative;
+  top: 1rem;
+  font-size: 1.2rem;
+}
+
+.liste-nonordonée-services {
+  position: relative;
+  font-size: 1rem;
+}
+
+.interieur:hover {
+  transform: scale(1.05);
   transition: 0.3s;
-  filter: brightness(100%);  
-  }
-  .canap:hover{
-    transform: scale(1.05);
-    transition: 0.3s;
-    filter: brightness(100%);  
+  filter: brightness(100%);
+}
 
-  }
-  .p-listeservices{
-    display: flex;
-    flex-direction: column;
-    font-size: 1.2rem;
-    width: 70%;
-    padding-top: 1rem;
-    
-     li{
-      width:90%;
-     }
+.exterieur:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+  filter: brightness(100%);
+}
 
-  }
+.canap:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+  filter: brightness(100%);
 
-  .contenaire-pres-texte{
-    display: flex;
-    height: 90vh;
-    flex-direction: column;
-    padding:1rem;
-  }
+}
 
-  .section-services{
-    margin-left: 4rem;
+.p-listeservices {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  width: 70%;
+  padding-top: 1rem;
+
+  li {
+    width: 90%;
   }
 
-  .btn-contact{
-    width: 100%;
-    text-align: center;
+}
 
-    a{
-      margin-top:1rem;
-      text-decoration: none;
-      background-color: grey;
-      border-radius: 1rem;
-      padding: 0.8rem 1.2rem;
-      color: white;
-    }
+.contenaire-pres-texte {
+  display: flex;
+  height: 90vh;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.section-services {
+  margin-left: 10rem;
+}
+
+.btn-contact {
+  margin-top: 7.5rem;
+  width: 100%;
+  margin-right: rem;
+  text-align: center;
+
+  a {
+    margin-top: 1rem;
+    text-decoration: none;
+    background-color: grey;
+    border-radius: 1rem;
+    padding: 0.8rem 1.2rem;
+    color: white;
   }
+}
