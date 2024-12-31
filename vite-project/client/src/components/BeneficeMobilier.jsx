@@ -4,12 +4,13 @@ function BeneficeMobilier (){
     return (
 
         <><div className='benefinte'>
-            <h2>Quel sont les Bénéfices de Ak Neettoyahe ?</h2>
+            <h2>Quel sont les Bénéfices de Ak Nettoyage ?</h2>
             <h2 className='propretemobilier'>Propreté impeccable garantie</h2>
             <img className="canapbeige" src={canape} alt="" />
             <p>Notre équipe de spécialistes utilise des techniques avancées pour un nettoyage en profondeur,
                 retirant les taches les plus tenaces et laissant vos surfaces comme neuves, pour une propreté qui se voit et se ressent</p>
-        </div><div>
+        </div>
+        <div>
                 <h3> Produits éco-responsables</h3>
             <p>Nous privilégions des produits de nettoyage respectueux de l’environnement, à faible impact 
                 écologique et sans produits chimiques agressifs, afin de protéger la planète tout en assurant la sécurité de votre espace.</p>

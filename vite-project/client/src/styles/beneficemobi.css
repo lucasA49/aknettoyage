@@ -16,3 +16,23 @@ width: 35rem;
     left: 60%;
     width: 19rem;
 }
+.css-1lt5qva-MuiCardContent-root {
+    background-color: #307dca;
+    border-radius: 20px;
+    width: 100%;
+}
+.css-b7dj7n-MuiList-root{
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+..css-qjrqxz-MuiPaper-root-MuiCard-root{    
+    background-color: #307dca;
+    border-radius: 20px;
+    width: 100%;
+}
+
+/* .MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary 
+MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-fullWidth MuiButton-root 
+MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium
+ MuiButton-colorPrimary MuiButton-fullWidth css-qxc2i0-MuiButtonBase-root-MuiButton-root" */
