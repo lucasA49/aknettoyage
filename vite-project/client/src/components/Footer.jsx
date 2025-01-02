@@ -30,10 +30,11 @@ function Footer() {
           <p>
             07 56 93 62 73 <br /> 49300 CHOLET
           </p>
+          <NavLink to="/MentionLégales" >
           <p>
             Mentions Légales <br />
-            Politique de confidentialité
           </p>
+          </NavLink>
         </div>
       </article>
     </>

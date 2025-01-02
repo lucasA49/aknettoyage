@@ -45,14 +45,15 @@ function BodyAccueil() {
             vous entrez dans la voiture avec vos chaussures parfois sales et les
             intempéries peuvent salir vos vitres. <br />
             C'est pour cela que AK NETTOYAGE propose aux particuliers et
-            professionnels, de laver votre voiture à votre place.
+            professionnels, de laver votre voiture à votre place.  <br />
+        <br/>  Ainsi, notre service de nettoyage à Paris vous propose 10 prestations
+              de qualité différentes
           </p>
 
           <section className="section-services">
             <p className="nosservices">
               {" "}
-              Ainsi, notre service de nettoyage à Paris vous propose 10 prestations
-              de qualité différentes
+              
             </p>
             <div className="liste-nonordonée-services">
               <ul className="p-listeservices">

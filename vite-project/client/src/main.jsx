@@ -7,6 +7,7 @@ import Contact from './pages/Contact.jsx'
 import Mobilier from './pages/Mobilier.jsx'
 import Exterieur from './pages/Exterieur.jsx'
 import Interieur from './pages/Interieur.jsx'
+import LegalM from './pages/LegalM.jsx'
 
 const router = createBrowserRouter([
     {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
 {
   path:"formu",
   element:<Formulaire/>
+},
+{
+  path:"MentionLégales",
+  element:<LegalM/>
 }
   ]);
 
