@@ -4,7 +4,7 @@ import '../styles/bodyinterieur.css'
 function BodyInterieur() {
   const services = [
     {
-      title: "Formule Standard - 30€",
+      title: "Formule Classique - 30€",
       features: [
         "Aspiration complète de l'habitacle",
         "Dégraissage et Nettoyage tableau de bord",
@@ -23,12 +23,11 @@ function BodyInterieur() {
       icon: Shield
     },
     {
-      title: "Formule Complète - 60€",
+      title: "Offres Complémentaires",
       features: [
-        "Céramique textile",
-        "Traitement anti-bactérien",
-        "Protection longue durée",
-        "Détachage profond"
+        "Imperméabilisation des textiles",
+        "Protection des plastiques",
+        "Protection des cuirs"
       ],
       icon: SprayCan
     }
