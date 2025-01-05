@@ -1,0 +1,26 @@
+
+.containerlegal{
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+
+.mentionlegal {
+  height: 69vh;
+  margin-top: 2rem;
+  background-color: grey;
+  width: 70%;
+  border-radius: 10px;
+  padding: 20px; /* Ajoute un espace autour du contenu */
+}
+.titrelegal{
+display: flex;
+    justify-content: center;  
+   align-items: center;
+}
+.textlegal{
+display: flex;
+line-height: 2;
+    justify-content: center;  
+   align-items: center;
+}

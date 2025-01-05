@@ -1,18 +1,17 @@
 .prixp {
     display: flex; /* Arranges cards horizontally */
-    justify-content: space-between; /* Spaces cards evenly */
-  }
-  
-  .MuiCard-root { /* Base styles for all cards */
-    background-color: white;
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin: 1rem;
-  }
-  
-  .MuiTypography-h5 { /* Title styles */
+justify-content: center;  
+height: 30rem;
+ }
+.MuiCard-root { /* Base styles for all cards */
+  background-color: red;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+}
+.MuiTypography-h5 { /* Title styles */
     font-size: 20px;
     font-weight: bold;
   }
@@ -32,18 +31,17 @@
     margin-bottom: 10px;
   }
   
-  .MuiButton-contained { /* Button styles */
-    background-color: #3f51b5; /* Base button color */
-    color: white;
-    border: none;
+  /* Base button color */
+  .MuiButton-contained { 
+  background-color:red;   
+  border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
   }
-  
   .premium { /* Styles for the "Premium" card */
     background-color: #e6f7ff; /* Light blue background */
-    .MuiButton-contained { /* Override button color for "Premium" card */
-      background-color: #337ab7; /* Darker blue button */
-    }
+  }
+  .MuiButton-contained { /* Override button color for "Premium" card */
+    background-color: #337ab7; /* Darker blue button */
   }

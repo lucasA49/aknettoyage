@@ -76,6 +76,7 @@
 }
 
 .liste-nonordonée-services {
+  padding-top: 2rem;
   position: relative;
   font-size: 1rem;
 }
@@ -113,10 +114,14 @@
 }
 
 .contenaire-pres-texte {
-  display: flex;
+    display: flex;
   height: 90vh;
   flex-direction: column;
+/*         justify-content: center; */
+align-items: center;
+justify-items: center;
   padding: 1rem;
+
 }
 
 .section-services {
@@ -124,9 +129,9 @@
 }
 
 .btn-contact {
-  margin-top: 7.5rem;
+  display: flex;
+  margin-top: 2em;
   width: 100%;
-  margin-right: rem;
   text-align: center;
 
   a {
@@ -135,6 +140,7 @@
     background-color: grey;
     border-radius: 1rem;
     padding: 0.8rem 1.2rem;
-    color: white;
+    color: whitesmoke;
+    background-color: #13557c;
   }
 }

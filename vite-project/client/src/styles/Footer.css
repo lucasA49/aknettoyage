@@ -30,22 +30,42 @@ footer {
       font-size: 1rem;
       color: white;
     }
-  }
-  .insta,
-  .facebook {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    width: 40px;
-  }
+    
+    .insta{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      height: 44px;
+      width: 40px;
+    }
+    .facebook {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      height: 40px;
+      width: 40px;
+    }
   
+    
   .footer-info {
+    width: 100%;
+    overflow: hidden;
     display: flex;
     justify-content: space-between;
 margin-top: 0.8rem;
     font-size: 20px;
     font-size: 1.1rem;
+    text-decoration: none;
+    & p{
+margin-right: 1rem;
+display: flex;
+align-items: center;
+
+    }
+    & img{
+      margin-left: 1rem;
+    }
   }
   .logo-reseaux {
     display: flex;
