@@ -1,3 +1,6 @@
+.footergrey{
+  height: 20vh;
+}
 footer {
   display: flex;
   height: 16rem;
@@ -71,3 +74,8 @@ align-items: center;
     display: flex;
     margin-top: 1rem;
   }
+  .navmention{
+  
+  text-decoration: none;
+color: #000;
+}

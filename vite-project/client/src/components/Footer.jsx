@@ -7,7 +7,7 @@ import Logo from "../assetscopy/images/aknettoyage.png";
 function Footer() {
   return (
     <>
-      <footer>
+      <footer className="footergrey">
         <h5 className="titre-footer">
           Vous avez besoin de plus d’informations ?
         </h5>
@@ -30,7 +30,7 @@ function Footer() {
           <p>
             07 56 93 62 73 <br /> 49300 CHOLET
           </p>
-          <NavLink to="/MentionLégales" >
+          <NavLink className="navmention" to="/MentionLégales" >
           <p>
             Mentions Légales <br />
           </p>
