@@ -1,0 +1,165 @@
+/* bodyinterieur.css */
+
+/* Container principal */
+.max-w-6xl {
+    max-width: 72rem;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+.max-w-6x:hover {
+    transform: translateY(-5px);
+}
+/* Espacement vertical */
+.space-y-8 > * + * {
+    margin-top: 2rem;
+}
+
+/* Titre principal */
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    text-align: center;
+    color: #1f2937;
+    margin-bottom: 2rem;
+}
+
+/* Grille des services */
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .md\:grid-cols-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .md\:grid-cols-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Cartes de service */
+.bg-white {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 16px 0px rgba(0, 0, 0, 0.1),
+                0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.bg-white:hover {
+    transform: translateY(-5px);
+    background-color: #c2c7c2;
+}
+
+/* Conteneur d'icône */
+.flex.items-center.justify-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+/* Style des icônes */
+.w-12 {
+    width: 3rem;
+    height: 3rem;
+}
+
+.text-blue-600 {
+    color: #2563eb;
+}
+
+/* Titres des cartes */
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Liste des caractéristiques */
+.space-y-2 > * + * {
+    margin-top: 0.5rem;
+}
+
+.flex.items-center {
+    display: flex;
+    align-items: center;
+}
+
+.mr-2 {
+    margin-right: 0.5rem;
+}
+
+/* Section des avantages */
+.mt-8 {
+    margin-top: 2rem;
+}
+
+/* Cartes des avantages */
+.bg-blue-50 {
+    background-color: #eff6ff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+/* Icônes des avantages */
+.w-8 {
+    width: 2rem;
+    height: 2rem;
+}
+
+.mr-4 {
+    margin-right: 1rem;
+}
+
+/* Texte des avantages */
+.font-semibold {
+    font-weight: 600;
+}
+
+.text-gray-600 {
+    color: #4b5563;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.bg-white, .bg-blue-50 {
+    animation: fadeIn 0.5s ease-out forwards;
+}
+
+/* Responsive design pour petits écrans */
+@media (max-width: 640px) {
+    .max-w-6xl {
+        padding: 1rem;
+    }
+    
+    .grid {
+        gap: 1rem;
+    }
+    
+    .text-2xl {
+        font-size: 1.25rem;
+    }
+    
+    .text-xl {
+        font-size: 1.125rem;
+    }
+}
